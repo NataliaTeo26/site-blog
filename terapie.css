@@ -1,0 +1,57 @@
+html, body, ul, li, a, div{
+    margin: 0;
+padding: 0;
+border: 0;
+font-weight: inherit;
+font-style: inherit;
+font-size: 100%;
+font-family: inherit;
+vertical-align: baseline;
+}
+
+#navigation{
+background-color:#d24ab9;
+height: 100px;
+width: 1500px;
+margin:0 auto;
+border:1px solid white;
+}
+ul#menu{
+list-style:none;
+margin-left:7em;
+}
+#menu a{
+text-decoration:none;
+font-size:1.8em;
+color:white;
+}
+#menu a:hover{
+text-decoration:underline;
+color:white;
+}
+#menu li{
+/*cu float facem lista sa "pluteasca", adica sa se alinieze horizontal*/
+float:left;
+padding:5px 15px 5px;
+text-align:center;
+}   
+
+#header {
+    background-color:rgb(145, 193, 235);
+    color:white;
+    text-align:center;
+    padding:5px;
+}
+#nav {
+    line-height:30px;
+    background-color:#3dc1de;
+    height: 1000px;
+    width: 300px;
+    float:left;
+    padding: 10px;
+}
+#section {
+    width:350px;
+    float:left;
+    padding:10px;
+}
